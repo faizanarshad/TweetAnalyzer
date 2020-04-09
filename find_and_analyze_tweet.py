@@ -5,7 +5,7 @@ from pandas import DataFrame
 import tweepy
 from twython import Twython
 
-
+# This will get the auth tokens
 def get_auth_token(file_name):
     global API_KEY, API_SECRET_KEY, ACCESS_TOKEN, ACCESS_SECRET
     f = open(file_name, 'r')
